@@ -1,0 +1,88 @@
+.contact-section {
+  margin: auto;
+  padding: 150px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.contact-section h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  color: var(--accentColor);
+  margin-bottom: 60px;
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contact-box {
+  display: flex;
+  flex-direction: column;
+}
+.contact-flex h4 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #666;
+  margin: 0;
+}
+.contact-flex p {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+.contact-flex p a {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.contact-flex p a:hover {
+  color: #fff;
+  text-shadow: 0 0 20px rgba(194, 164, 255, 0.4);
+}
+
+.contact-box h2 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  color: #888;
+  text-align: right;
+}
+.contact-box h2 span {
+  color: #fff;
+  font-weight: 400;
+}
+.contact-box h5 {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  color: #444;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact-section {
+    padding: 80px 0;
+  }
+  .contact-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .contact-flex p {
+    font-size: 24px;
+  }
+  .contact-box h2 {
+    text-align: left;
+  }
+  .contact-box h5 {
+    justify-content: flex-start;
+  }
+}

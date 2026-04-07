@@ -1,0 +1,47 @@
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\BackgroundMusic.tsx
+  66:6  warning  React Hook useEffect has a missing dependency: 'isMuted'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\Character\utils\lighting.ts
+  30:39  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\Character\utils\mouseUtils.ts
+  53:9  error  'minRotationX' is never reassigned. Use 'const' instead  prefer-const
+  54:9  error  'maxRotationX' is never reassigned. Use 'const' instead  prefer-const
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\Character\utils\resizeUtils.ts
+  12:7  error  'canvas3d' is never reassigned. Use 'const' instead  prefer-const
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\Loading.tsx
+   34:6   warning  React Hook useEffect has a missing dependency: 'setIsLoading'. Either include it or remove the dependency array                 react-hooks/exhaustive-deps
+   95:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  100:11  error    'rand' is never reassigned. Use 'const' instead                                                                                 prefer-const
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\Navbar.tsx
+   9:12  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  26:9   error    'links' is never reassigned. Use 'const' instead                                                                                prefer-const
+  28:11  error    'element' is never reassigned. Use 'const' instead                                                                              prefer-const
+  32:15  error    'elem' is never reassigned. Use 'const' instead                                                                                 prefer-const
+  33:15  error    'section' is never reassigned. Use 'const' instead                                                                              prefer-const
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\WhatIDo.tsx
+  20:20  warning  The ref value 'containerRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'containerRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\Work.tsx
+  39:9  error  'padding' is never reassigned. Use 'const' instead   prefer-const
+  46:7  error  'timeline' is never reassigned. Use 'const' instead  prefer-const
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\components\utils\GsapScroll.ts
+  39:20  error  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  39:34  error  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  40:40  error  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  42:39  error  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  63:7   error  'neckBone' is never reassigned. Use 'const' instead  prefer-const
+
+C:\Users\raifa\Downloads\Portfolio-Website-main\New folder\src\context\LoadingProvider.tsx
+  16:14  warning  Fast refresh only works when a file only exports components. Move your React context(s) to a separate file                      react-refresh/only-export-components
+  37:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+✖ 23 problems (16 errors, 7 warnings)
+  11 errors and 0 warnings potentially fixable with the `--fix` option.
+
